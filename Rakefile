@@ -4,15 +4,16 @@ task :dev do
 end
 
 desc "Given a title as an argument, create a new post file"
-task :new, :title do |t, args|
-  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '-').downcase}.md"
+task :new do
+  title = ENV["title"] || "new-post"
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '-').downcase}.md"
   path = File.join("_posts", filename)
   if File.exist? path; raise RuntimeError.new("Won't clobber #{path}"); end
   File.open(path, 'w') do |file|
     file.write <<-EOS
 ---
 layout: post
-title: #{args.title}
+title: #{title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
 author: #{`git config --get user.email`.strip.chomp}
 tags: misc
