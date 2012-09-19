@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Dartlangfr blog</title>
+  <link href="http://dartlangfr.net"/>
+  <link type="application/atom+xml" rel="self" href="http://dartlangfr.net/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://dartlangfr.org/</id>
+  <author>
+    <name>Dartlangfr</name>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://dartlangfr.net{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://dartlangfr.net{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Dartlangfr</name>
+      <uri>http://dartlangfr.net</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>

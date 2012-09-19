@@ -1,0 +1,22 @@
+title: dartlangfr blog
+author: Dartlangfr
+email: "dartlangfr@googlegroups.com"
+
+permalink: pretty
+
+rss_feed: "/atom.xml"
+future: false
+
+markdown: rdiscount
+rdiscount
+  extensions: [smart]
+pygments: true
+
+include: [.htaccess]
+exclude: [README.md, LICENSE, Rakefile]
+
+socialize: "true"
+socialize_twitter: "dartlangfr"
+socialize_github: "dartlangfr"
+
+paginate: 50
