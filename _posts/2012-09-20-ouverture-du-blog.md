@@ -3,8 +3,8 @@ layout: post
 title: Ouverture du blog
 date: 2012-09-20  1:04:32
 author: Julien Vey
-tags: annonces
-excerpt:
+category: Annonces
+tags: []
 ---
 Voilà, le blog est ouvert, propulsé par Jekyll et hébergé sur Github. Le code source est disponible et si vous avez un article intéressant à proposer, nous acceptons les pull request :)
 
