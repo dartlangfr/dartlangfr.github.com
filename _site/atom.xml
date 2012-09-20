@@ -4,12 +4,36 @@
   <title>Dartlangfr blog</title>
   <link href="http://dartlangfr.net"/>
   <link type="application/atom+xml" rel="self" href="http://dartlangfr.net/atom.xml"/>
-  <updated>2012-09-20T00:20:40+02:00</updated>
+  <updated>2012-09-20T21:35:34+02:00</updated>
   <id>http://dartlangfr.org/</id>
   <author>
     <name>Dartlangfr</name>
   </author>
 
+  
+  <entry>
+    <id>http://dartlangfr.net/2012/09/20/ouverture-du-blog</id>
+    <link type="text/html" rel="alternate" href="http://dartlangfr.net/2012/09/20/ouverture-du-blog/"/>
+    <title>Ouverture du blog</title>
+    <published>2012-09-20T01:04:32+02:00</published>
+    <updated>2012-09-20T01:04:32+02:00</updated>
+    <author>
+      <name>Dartlangfr</name>
+      <uri>http://dartlangfr.net</uri>
+    </author>
+    <content type="html">&lt;p&gt;Voilà, le blog est ouvert, propulsé par Jekyll et hébergé sur Github. Le code source est disponible et si vous avez un article intéressant à proposer, nous acceptons les pull request :)&lt;/p&gt;
+
+&lt;p&gt;Quelques liens utiles pour nous suivre :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/dartlangfr&quot;&gt;le compte twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gplus.to/dartlangfr&quot;&gt;la page Google+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/?hl=fr#!forum/dartlangfr&quot;&gt;le Google Groups&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;À bientôt sur ce blog.&lt;/p&gt;
+</content>
+  </entry>
   
  
 </feed>

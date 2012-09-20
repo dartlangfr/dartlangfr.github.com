@@ -3,8 +3,7 @@ layout: default
 ---
     <div class="page-header">
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <h6>{{ page.date | date: "%B %e, %Y" }}</h6>
-
+      <h6>{{ page.author }}  -  {{ page.date | date: "%e %B %Y" }}</h6>
     </div>
     <div style="text-align: justify">
       {{ content }}
