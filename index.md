@@ -17,5 +17,4 @@ Les articles :
   {% endfor %}
 </ul>
 
-
-
+<a href="https://plus.google.com/115816334172157652403" rel="publisher"></a>
