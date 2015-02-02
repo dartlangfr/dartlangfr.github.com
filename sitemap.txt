@@ -6,3 +6,9 @@ title : Sitemap
 {{site.production_url}}{{ page.url }}{% endfor %}
 {% for post in site.posts %}
 {{site.production_url}}{{ post.url }}{% endfor %}
+
+{{site.production_url}}/dart-cheat-sheet
+{{site.production_url}}/devoxxfr-2014-codelab-slides
+{{site.production_url}}/conferences/2014-10-28
+{{site.production_url}}/conferences/2015-01-30
+{{site.production_url}}/conferences/2014-11-07
