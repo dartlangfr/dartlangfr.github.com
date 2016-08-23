@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bienvenue sur Dartlangfr.net!
+title: Bienvenue sur dartlang.fr !
 tagline: Site de la communauté française du langage Dart
 ---
 {% include JB/setup %}
